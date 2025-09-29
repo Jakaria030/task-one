@@ -1,5 +1,11 @@
+import Footer from "./components/Footer";
+
 const App = () => {
-  return <div className="text-4xl text-center font-bold">Hello</div>;
+  return (
+    <div className="bg-[#C0C0C0] h-[100vh]">
+      <Footer />
+    </div>
+  );
 };
 
 export default App;
